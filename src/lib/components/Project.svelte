@@ -9,6 +9,7 @@
 	<div class="figure">
 		<slot name="figure" />
 	</div>
+	<slot />
 </div>
 
 <style lang="scss">

@@ -1,5 +1,5 @@
 <script>
-	import SudokuGame from '$lib/components/sudoku/SudokuGame.svelte';
+	import SudokuBoard from '$lib/components/sudoku/SudokuBoard.svelte';
 	import Project from '$lib/components/Project.svelte';
 	import '$lib/styles/app.css';
 </script>
@@ -17,6 +17,6 @@
 		</p>
 	</svelte:fragment>
 	<svelte:fragment slot="figure">
-		<SudokuGame />
+		<SudokuBoard />
 	</svelte:fragment>
 </Project>

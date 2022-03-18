@@ -4,6 +4,7 @@
 </script>
 
 <script lang="ts">
+	import Project from '$lib/components/Project.svelte';
 	import Spacing from '$lib/components/Spacing.svelte';
 </script>
 
@@ -12,12 +13,16 @@
 </svelte:head>
 
 <Spacing />
-<h1>Hello, I'm Grant!</h1>
-<div class="tagline">All-Star Dev | Sudoku Enthusiast | Linux Hobbyist</div>
-<p>
-	I like Sudoku puzzles and I like learning new things. I'm a web developer currently working in the
-	healthcare industry.
-</p>
+<Project>
+	<div class="full">
+		<h1>Hello, I'm Grant!</h1>
+		<div class="tagline">All-Star Dev | Sudoku Enthusiast | Linux Hobbyist</div>
+		<p>
+			I like Sudoku puzzles and I like learning new things. I'm a web developer currently working in
+			the healthcare industry.
+		</p>
+	</div>
+</Project>
 
 <style>
 	h1 {
@@ -27,13 +32,19 @@
 
 	p {
 		font-size: 1.25rem;
-		text-align: left;
-		padding: 0 14px;
+		padding: 0px 14px;
+		text-align: center;
 	}
 
 	.tagline {
 		font-size: 1.5rem;
 		margin: 1.5rem 0;
 		font-weight: 500;
+	}
+
+	.full {
+		display: grid;
+		width: 100%;
+		grid-column: span 3;
 	}
 </style>

@@ -1,3 +1,8 @@
+<script context="module">
+	export const hydrate = false;
+	export const prerender = true;
+</script>
+
 <script lang="ts">
 	import '$lib/styles/app.css';
 	import Spacing from '$lib/components/Spacing.svelte';

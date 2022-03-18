@@ -8,10 +8,11 @@
 	<svelte:fragment slot="description">
 		<a href="https://word.lettucebowler.net" target="_blank"><h2>WordLettuce</h2></a>
 		<p>
-			Wordle clone made with <a href="https://kit.svelte.dev" target="_blank">svelte-kit</a>. I made
-			this game after my job blocked the real wordle on the company network, and my coworkers I
-			wanted to keep playing and sharing our scores with each other. Playable demo available <a href="https://word.lettucebowler.net" target="_blank">here</a>. Code available for browsing
-			<a href="https://github.com/lettucebowler/sveltedoku" target="_blank">here</a>.
+			Wordle clone made with <a href="https://kit.svelte.dev" target="_blank">svelte-kit</a>. My job
+			blocked the real wordle on the company network, and I wanted to keep playing and sharing
+			scores with my coworkers so I made my own. Playable
+			<a href="https://word.lettucebowler.net" target="_blank">here</a>. Code available on
+			<a href="https://github.com/lettucebowler/sveltedoku" target="_blank">Github</a>.
 		</p>
 	</svelte:fragment>
 	<svelte:fragment slot="figure">
