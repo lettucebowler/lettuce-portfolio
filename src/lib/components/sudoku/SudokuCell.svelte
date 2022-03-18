@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let number = 0;
+	export let number: string = '';
 	export let row;
 	export let col;
 	export let selected = false;
@@ -36,19 +36,18 @@
 </script>
 
 <div class={classString}>
-	{number !== 0 ? number : ''}
+	{number}
 </div>
 
 <style>
 	div {
 		display: grid;
 		aspect-ratio: 1;
-		display: flex;
-		justify-content: center;
+		height: 100%;
 		align-items: center;
 		background-color: var(--background-color);
 		color: var(--text-color);
-		text-align: center;
+		place-items: center;
 		-webkit-user-select: none; /* Safari */
 		-moz-user-select: none; /* Firefox */
 		-ms-user-select: none; /* IE10+/Edge */

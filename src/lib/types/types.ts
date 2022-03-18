@@ -1,13 +1,10 @@
 export type Cell = {
-	initial: boolean;
-	legal: boolean;
-	success: boolean;
 	peerCell: boolean;
 	peerDigit: boolean;
 	number: string;
+	selected: boolean;
 	row: number;
 	col: number;
-	selected: boolean;
 };
 
 export type CellSelectionEvent = {
