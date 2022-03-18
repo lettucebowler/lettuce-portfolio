@@ -2,6 +2,7 @@
 	import '$lib/styles/app.css';
 	import PageContentContainer from '$lib/components/PageContentContainer.svelte';
 	import Navbar from '$lib/components/Navbar.svelte';
+import Spacing from '$lib/components/Spacing.svelte';
 
 	const links = [
 		{
@@ -27,6 +28,7 @@
 		<main>
 			<Navbar {links} />
 			<slot />
+			<Spacing />
 		</main>
 	</PageContentContainer>
 </body>

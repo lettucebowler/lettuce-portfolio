@@ -16,7 +16,7 @@
 <Project>
 	<div class="full">
 		<h1>Hello, I'm Grant!</h1>
-		<div class="tagline">All-Star Dev | Sudoku Enthusiast | Linux Hobbyist</div>
+		<div class="tagline">Web Developer | Sudoku Enthusiast | Linux Hobbyist</div>
 		<p>
 			I like Sudoku puzzles and I like learning new things. I'm a web developer currently working in
 			the healthcare industry.

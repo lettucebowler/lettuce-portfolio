@@ -14,26 +14,42 @@
 
 <style lang="scss">
 	.description {
-		grid-column: span 2;
+		// grid-column: span 2;
+		flex: 2 2 200px;
 	}
 
+	// .project {
+	// 	display: grid;
+	// 	column-gap: 4px;
+	// 	background-color: var(--nord-1);
+	// 	border-radius: 12px;
+	// 	padding: 6px 6px;
+	// 	@media screen and (min-width: 650px) {
+	// 		grid-template-columns: 1fr 1fr 1fr;
+	// 	}
+	// }
+
 	.project {
-		display: grid;
-		column-gap: 4px;
+		display: flex;
+		// column-gap: 4px;
+		width: 100%;
+		flex-wrap: wrap;
+		// flex-direction: row;
+		justify-content: center;
 		background-color: var(--nord-1);
 		border-radius: 12px;
 		padding: 6px 6px;
-		margin: 2px 2px;
-		@media screen and (min-width: 650px) {
-			grid-template-columns: 1fr 1fr 1fr;
-		}
+		// @media screen and (min-width: 650px) {
+		// 	grid-template-columns: 1fr 1fr 1fr;
+		// }
 	}
 
 	.figure {
-		grid-column: span 1;
-		@media screen and (max-width: 650px) {
-			grid-column: span 2;
-		}
+		// grid-column: span 1;
+		// @media screen and (max-width: 650px) {
+		// 	grid-column: span 2;
+		// }
+		flex: 1 1 190px;
 	}
 
 	:global(p) {

@@ -27,7 +27,7 @@
 			col: 2,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -35,7 +35,7 @@
 			col: 3,
 			selected: false,
 			peerCell: true,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '7',
@@ -51,7 +51,7 @@
 			col: 5,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -59,7 +59,7 @@
 			col: 6,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -67,7 +67,7 @@
 			col: 7,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -75,7 +75,7 @@
 			col: 8,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '6',
@@ -91,7 +91,7 @@
 			col: 1,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -99,7 +99,7 @@
 			col: 2,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '1',
@@ -131,7 +131,7 @@
 			col: 6,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -139,7 +139,7 @@
 			col: 7,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -147,7 +147,7 @@
 			col: 8,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -155,7 +155,7 @@
 			col: 0,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '9',
@@ -179,7 +179,7 @@
 			col: 3,
 			selected: false,
 			peerCell: true,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -187,7 +187,7 @@
 			col: 4,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -195,7 +195,7 @@
 			col: 5,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -203,7 +203,7 @@
 			col: 6,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '6',
@@ -219,7 +219,7 @@
 			col: 8,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '8',
@@ -235,7 +235,7 @@
 			col: 1,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -243,7 +243,7 @@
 			col: 2,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -251,7 +251,7 @@
 			col: 3,
 			selected: false,
 			peerCell: true,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '6',
@@ -267,7 +267,7 @@
 			col: 5,
 			selected: false,
 			peerCell: true,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -275,7 +275,7 @@
 			col: 6,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -283,7 +283,7 @@
 			col: 7,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '3',
@@ -307,7 +307,7 @@
 			col: 1,
 			selected: false,
 			peerCell: true,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -315,7 +315,7 @@
 			col: 2,
 			selected: false,
 			peerCell: true,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '8',
@@ -331,7 +331,7 @@
 			col: 4,
 			selected: false,
 			peerCell: true,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '3',
@@ -347,7 +347,7 @@
 			col: 6,
 			selected: false,
 			peerCell: true,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -355,7 +355,7 @@
 			col: 7,
 			selected: false,
 			peerCell: true,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '1',
@@ -379,7 +379,7 @@
 			col: 1,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -387,7 +387,7 @@
 			col: 2,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -395,7 +395,7 @@
 			col: 3,
 			selected: false,
 			peerCell: true,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '2',
@@ -411,7 +411,7 @@
 			col: 5,
 			selected: false,
 			peerCell: true,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -419,7 +419,7 @@
 			col: 6,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -427,7 +427,7 @@
 			col: 7,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '6',
@@ -443,7 +443,7 @@
 			col: 0,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '6',
@@ -459,7 +459,7 @@
 			col: 2,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -467,7 +467,7 @@
 			col: 3,
 			selected: false,
 			peerCell: true,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -475,7 +475,7 @@
 			col: 4,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -483,7 +483,7 @@
 			col: 5,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '2',
@@ -507,7 +507,7 @@
 			col: 8,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -515,7 +515,7 @@
 			col: 0,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -523,7 +523,7 @@
 			col: 1,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -531,7 +531,7 @@
 			col: 2,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '4',
@@ -563,7 +563,7 @@
 			col: 6,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -571,7 +571,7 @@
 			col: 7,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '5',
@@ -587,7 +587,7 @@
 			col: 0,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -595,7 +595,7 @@
 			col: 1,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -603,7 +603,7 @@
 			col: 2,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -611,7 +611,7 @@
 			col: 3,
 			selected: false,
 			peerCell: true,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '8',
@@ -627,7 +627,7 @@
 			col: 5,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '',
@@ -635,7 +635,7 @@
 			col: 6,
 			selected: false,
 			peerCell: false,
-			peerDigit: 0
+			peerDigit: false
 		},
 		{
 			number: '7',
