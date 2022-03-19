@@ -43,7 +43,8 @@
 	div {
 		display: grid;
 		aspect-ratio: 1;
-		height: 100%;
+		/* height: 100%; */
+		width: 100%;
 		align-items: center;
 		background-color: var(--background-color);
 		color: var(--text-color);

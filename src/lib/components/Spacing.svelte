@@ -2,6 +2,6 @@
 
 <style>
 	div {
-		padding-top: 16px;
+		padding-top: 8px;
 	}
 </style>

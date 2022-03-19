@@ -14,42 +14,22 @@
 
 <style lang="scss">
 	.description {
-		// grid-column: span 2;
-		flex: 2 2 200px;
+		margin: 3px;
+		flex: 2 2 400px;
 	}
-
-	// .project {
-	// 	display: grid;
-	// 	column-gap: 4px;
-	// 	background-color: var(--nord-1);
-	// 	border-radius: 12px;
-	// 	padding: 6px 6px;
-	// 	@media screen and (min-width: 650px) {
-	// 		grid-template-columns: 1fr 1fr 1fr;
-	// 	}
-	// }
 
 	.project {
 		display: flex;
-		// column-gap: 4px;
-		width: 100%;
 		flex-wrap: wrap;
-		// flex-direction: row;
-		justify-content: center;
 		background-color: var(--nord-1);
 		border-radius: 12px;
-		padding: 6px 6px;
-		// @media screen and (min-width: 650px) {
-		// 	grid-template-columns: 1fr 1fr 1fr;
-		// }
+		padding: 3px;
+		align-items: flex-start;
 	}
 
 	.figure {
-		// grid-column: span 1;
-		// @media screen and (max-width: 650px) {
-		// 	grid-column: span 2;
-		// }
-		flex: 1 1 190px;
+		margin: 3px;
+		flex: 1 1 200px;
 	}
 
 	:global(p) {
