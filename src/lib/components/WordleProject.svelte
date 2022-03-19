@@ -12,7 +12,7 @@
 			blocked the real wordle on the company network, and I wanted to keep playing and sharing
 			scores with my coworkers so I made my own. Playable
 			<a href="https://word.lettucebowler.net" target="_blank">here</a>. Code available on
-			<a href="https://github.com/lettucebowler/sveltedoku" target="_blank">Github</a>.
+			<a href="https://github.com/lettucebowler/lettuce-wordle" target="_blank">Github</a>.
 		</p>
 	</svelte:fragment>
 	<svelte:fragment slot="figure">
