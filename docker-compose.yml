@@ -3,7 +3,7 @@ version: '3.3'
 services:
   sudoku:
     build: .
-    container_name: lettuce-sudoku
+    container_name: lettuce-portfolio
     restart: unless-stopped
     environment:
       - TZ=America/Chicago
