@@ -13,7 +13,8 @@
 		</p>
 	</svelte:fragment>
 	<svelte:fragment slot="figure">
-		<a href="https://github.com/lettucebowler" target="_blank"><i class="fa fa-github octocat" /></a
+		<a href="https://github.com/lettucebowler" target="_blank"
+			><i class="fa-brands fa-git-alt octocat" /></a
 		>
 	</svelte:fragment>
 </Project>

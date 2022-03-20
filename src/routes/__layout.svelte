@@ -2,7 +2,7 @@
 	import '$lib/styles/app.css';
 	import PageContentContainer from '$lib/components/PageContentContainer.svelte';
 	import Navbar from '$lib/components/Navbar.svelte';
-import Spacing from '$lib/components/Spacing.svelte';
+	import Spacing from '$lib/components/Spacing.svelte';
 
 	const links = [
 		{
@@ -20,7 +20,7 @@ import Spacing from '$lib/components/Spacing.svelte';
 	<link rel="icon" type="image/png" href="/favicon.png" />
 	<link
 		rel="stylesheet"
-		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
 	/>
 </svelte:head>
 <body>

@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let number: string = '';
+	export let number = '';
 	export let row;
 	export let col;
 	export let selected = false;
@@ -43,7 +43,6 @@
 	div {
 		display: grid;
 		aspect-ratio: 1;
-		/* height: 100%; */
 		width: 100%;
 		align-items: center;
 		background-color: var(--background-color);
