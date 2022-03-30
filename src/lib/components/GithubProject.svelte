@@ -21,6 +21,6 @@
 
 <style>
 	.octocat {
-		font-size: 16rem;
+		font-size: 200px;
 	}
 </style>
