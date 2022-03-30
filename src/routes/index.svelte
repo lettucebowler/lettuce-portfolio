@@ -4,7 +4,7 @@
 </script>
 
 <script lang="ts">
-	import IconLink from '$lib/components/  IconLink.svelte';
+	import IconLink from '$lib/components/IconLink.svelte';
 	import Spacing from '$lib/components/Spacing.svelte';
 </script>
 

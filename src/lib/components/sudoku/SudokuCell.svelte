@@ -1,7 +1,7 @@
 <script lang="ts">
 	export let number = '';
-	export let row;
-	export let col;
+	export let row: number;
+	export let col: number;
 	export let selected = false;
 	export let peerCell = false;
 	export let peerDigit = false;

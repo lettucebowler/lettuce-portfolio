@@ -5,8 +5,10 @@
 	export let caption = 'caption';
 </script>
 
-<a {href} target="_blank"><i class={`${icon} ${color}`} /></a>
-<div>{caption}</div>
+<figure>
+	<a {href} target="_blank"><i class={`${icon} ${color}`} alt={caption} /></a>
+	<figcaption>{caption}</figcaption>
+</figure>
 
 <style>
 	a {
@@ -25,7 +27,7 @@
 		font-size: 5rem;
 	}
 
-	div {
+	figcaption {
 		font-size: 1.5rem;
 	}
 </style>
