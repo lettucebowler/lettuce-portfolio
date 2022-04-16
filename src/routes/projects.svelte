@@ -4,8 +4,6 @@
 </script>
 
 <script lang="ts">
-	// import '$lib/styles/app.css';
-	import Spacing from '$lib/components/Spacing.svelte';
 	import SudokuProject from '$lib/components/SudokuProject.svelte';
 	import WordleProject from '$lib/components/WordleProject.svelte';
 	import GithubProject from '$lib/components/GithubProject.svelte';
@@ -30,7 +28,7 @@
 	.content {
 		flex: 1 1 auto;
 	}
-	
+
 	h1 {
 		font-size: 3.75rem;
 		margin: 0 0 0 0;

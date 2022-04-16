@@ -7,7 +7,7 @@ const config = {
 	kit: {
 		adapter: adapter({ out: 'build' }),
 		prerender: {
-			default: true,
+			default: true
 		}
 	}
 };
