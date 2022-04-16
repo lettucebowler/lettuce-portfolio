@@ -12,7 +12,6 @@
 	<title>Grant Montgomery</title>
 </svelte:head>
 
-<Spacing />
 <div class="card">
 	<div class="full">
 		<h1>Hello, I'm Grant!</h1>
@@ -61,7 +60,10 @@
 	.card {
 		background-color: var(--nord-1);
 		border-radius: 12px;
-		padding: 3px;
+		/* padding: 3px; */
+		/* max-height: 500px; */
+		padding-bottom: 8px;
+		height: 100%;
 	}
 
 	.block {

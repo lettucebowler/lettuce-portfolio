@@ -16,25 +16,21 @@
 	<title>Projects</title>
 </svelte:head>
 
-<Spacing />
 <Project>
-	<div>
+	<div class="content">
 		<h1>Projects</h1>
 		<p>Below are the personal projects I currently feel like showing off.</p>
 	</div>
 </Project>
-<Spacing />
 <SudokuProject />
-<Spacing />
 <WordleProject />
-<Spacing />
 <GithubProject />
 
 <style>
-	div {
+	.content {
 		flex: 1 1 auto;
 	}
-
+	
 	h1 {
 		font-size: 3.75rem;
 		margin: 0 0 0 0;

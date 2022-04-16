@@ -24,13 +24,14 @@
 	/>
 </svelte:head>
 <body>
+	<main>
+
 	<PageContentContainer>
-		<main>
 			<Navbar {links} />
 			<slot />
-			<Spacing />
-		</main>
 	</PageContentContainer>
+</main>
+
 </body>
 
 <style>

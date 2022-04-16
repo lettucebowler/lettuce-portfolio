@@ -7,13 +7,20 @@
 <style>
 	.page {
 		margin: 0 auto;
-		max-width: calc(100vh / 8.5 * 5);
-		justify-content: start;
-		height: auto;
+		max-width: 800px;
+		width: 100%;
+		box-sizing: border-box;
+		display: flex;
+		gap: 8px;
+		padding: 0px 8px 8px 8px;
+		justify-content: flex-start;
+		flex-direction: column;
+		height: 100%;
+		flex: 1 1 auto;
+		margin: 0 auto;
 	}
 
 	.center {
 		margin: 0 0;
-		display: flex;
 	}
 </style>
