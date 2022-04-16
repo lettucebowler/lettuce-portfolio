@@ -6,7 +6,7 @@
 	<div class="description">
 		<slot name="description" />
 	</div>
-	<div class="figure">
+	<div class="figure" aria-hidden="true">
 		<slot name="figure" />
 	</div>
 	<slot />
