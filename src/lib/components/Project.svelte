@@ -45,7 +45,7 @@
 		padding-left: 8px;
 	}
 
-	:global(a) {
+	:global(a, span) {
 		text-decoration: none;
 		color: var(--nord-14);
 	}
