@@ -14,7 +14,7 @@
 	</svelte:fragment>
 	<svelte:fragment slot="figure">
 		<div class="figure">
-			<a href="https://github.com/lettucebowler" target="_blank"
+			<a href="https://github.com/lettucebowler" title="Github" target="_blank"
 				><span class="icon-git octocat" /></a
 			>
 		</div>
