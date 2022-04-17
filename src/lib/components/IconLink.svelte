@@ -6,7 +6,7 @@
 </script>
 
 <figure>
-	<a {href} target="_blank"><i class={`${icon} ${color}`} alt={caption} /></a>
+	<a {href} target="_blank"><span class={`icon-${icon} ${color}`} alt={caption} /></a>
 	<figcaption>{caption}</figcaption>
 </figure>
 
@@ -23,8 +23,8 @@
 		color: var(--nord-12);
 	}
 
-	i {
-		font-size: 5rem;
+	span {
+		font-size: 8rem;
 	}
 
 	figcaption {

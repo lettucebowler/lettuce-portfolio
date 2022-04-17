@@ -28,7 +28,7 @@
 				<div class="margin">
 					<IconLink
 						href="/Resume.pdf"
-						icon="fa-solid fa-file-arrow-down"
+						icon="insert_drive_file"
 						color="twelve"
 						caption="Resume"
 					/>
@@ -36,7 +36,7 @@
 				<div class="margin">
 					<IconLink
 						href="https://github.com/lettucebowler"
-						icon="fa-brands fa-git-alt"
+						icon="git"
 						caption="Github"
 					/>
 				</div>

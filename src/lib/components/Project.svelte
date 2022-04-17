@@ -15,7 +15,7 @@
 <style lang="scss">
 	.description {
 		margin: 3px;
-		flex: 2 2 400px;
+		flex: 2 2 30rem;
 	}
 
 	.project {
@@ -29,7 +29,7 @@
 
 	.figure {
 		margin: 3px;
-		flex: 1 1 200px;
+		flex: 1 1 15rem;
 	}
 
 	:global(p) {

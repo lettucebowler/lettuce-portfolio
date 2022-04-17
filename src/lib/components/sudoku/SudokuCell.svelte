@@ -19,9 +19,11 @@
 		top: boolean,
 		right: boolean,
 		bottom: boolean,
-		left: boolean
+		left: boolean,
+		number: string,
 	) => {
 		const classes = [];
+		number === '0' && classes.push('hidden');
 		selected && classes.push('selected');
 		peerCell && classes.push('peerCell');
 		peerDigit && classes.push('peerDigit');
@@ -32,7 +34,7 @@
 		return classes.join(' ');
 	};
 
-	$: classString = getClass(selected, peerCell, peerDigit, top, right, bottom, left);
+	$: classString = getClass(selected, peerCell, peerDigit, top, right, bottom, left, number);
 </script>
 
 <div class={classString}>
@@ -42,8 +44,6 @@
 <style>
 	div {
 		display: grid;
-		aspect-ratio: 1;
-		width: 100%;
 		align-items: center;
 		background-color: var(--background-color);
 		color: var(--text-color);
@@ -52,6 +52,10 @@
 		-moz-user-select: none; /* Firefox */
 		-ms-user-select: none; /* IE10+/Edge */
 		user-select: none; /* Standard */
+	}
+
+	.hidden {
+		color: transparent;
 	}
 
 	.selected {

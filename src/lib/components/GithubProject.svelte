@@ -13,14 +13,29 @@
 		</p>
 	</svelte:fragment>
 	<svelte:fragment slot="figure">
-		<a href="https://github.com/lettucebowler" target="_blank"
-			><i class="fa-brands fa-git-alt octocat" /></a
-		>
+		<div class="figure">
+			<a href="https://github.com/lettucebowler" target="_blank"
+				><span class="icon-git octocat" /></a
+			>
+		</div>
 	</svelte:fragment>
 </Project>
 
 <style>
+
+	.figure {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+
+	span {
+		display: flex;
+		margin: auto;
+		width: 100%;
+	}
+
 	.octocat {
-		font-size: 200px;
+		font-size:15rem;
 	}
 </style>
