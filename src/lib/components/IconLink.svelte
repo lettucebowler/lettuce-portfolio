@@ -6,7 +6,7 @@
 </script>
 
 <figure>
-	<a {href} target="_blank"><span class={`icon-${icon} ${color}`} alt={caption} /></a>
+	<a {href} title={caption} target="_blank"><span class={`icon-${icon} ${color}`} alt={caption} /></a>
 	<figcaption>{caption}</figcaption>
 </figure>
 
