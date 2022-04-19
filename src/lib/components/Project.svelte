@@ -12,7 +12,7 @@
 	<slot />
 </div>
 
-<style lang="scss">
+<style>
 	.description {
 		margin: 3px;
 		flex: 2 2 30rem;
