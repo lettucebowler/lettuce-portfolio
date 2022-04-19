@@ -17,10 +17,7 @@
 
 <svelte:head>
 	<link rel="icon" type="image/png" href="/favicon.png" />
-	<link
-		rel="stylesheet"
-		href="/icomoon.css"
-	/>
+	<link rel="stylesheet" href="/icomoon.css" />
 </svelte:head>
 <body>
 	<main>

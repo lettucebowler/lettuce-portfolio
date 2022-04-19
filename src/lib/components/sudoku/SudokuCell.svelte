@@ -20,7 +20,7 @@
 		right: boolean,
 		bottom: boolean,
 		left: boolean,
-		number: string,
+		number: string
 	) => {
 		const classes = [];
 		number === '0' && classes.push('hidden');

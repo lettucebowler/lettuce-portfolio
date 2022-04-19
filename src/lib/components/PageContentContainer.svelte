@@ -12,7 +12,7 @@
 		box-sizing: border-box;
 		display: flex;
 		gap: 8px;
-		padding: 0px 8px 8px 8px;
+		padding: 0px 4px 4px 4px;
 		justify-content: flex-start;
 		flex-direction: column;
 		height: 100%;

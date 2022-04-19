@@ -26,19 +26,10 @@
 		<div class="block">
 			<div class="content">
 				<div class="margin">
-					<IconLink
-						href="/Resume.pdf"
-						icon="insert_drive_file"
-						color="twelve"
-						caption="Resume"
-					/>
+					<IconLink href="/Resume.pdf" icon="insert_drive_file" color="twelve" caption="Resume" />
 				</div>
 				<div class="margin">
-					<IconLink
-						href="https://github.com/lettucebowler"
-						icon="git"
-						caption="Github"
-					/>
+					<IconLink href="https://github.com/lettucebowler" icon="git" caption="Github" />
 				</div>
 			</div>
 		</div>

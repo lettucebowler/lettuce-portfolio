@@ -20,7 +20,6 @@
 </Project>
 
 <style>
-
 	.figure {
 		display: flex;
 		justify-content: center;
@@ -30,10 +29,9 @@
 	span {
 		display: flex;
 		margin: auto;
-		width: 100%;
 	}
 
 	.octocat {
-		font-size:15rem;
+		font-size: 15rem;
 	}
 </style>
