@@ -1,16 +1,18 @@
 <script>
 	import '$lib/styles/app.css';
+	import Card from '$lib/components/Card.svelte';
 </script>
 
-<div class="project">
-	<div class="description">
-		<slot name="description" />
+<Card>
+	<div class="project">
+		<div class="description">
+			<slot name="description" />
+		</div>
+		<div class="figure" aria-hidden="true">
+			<slot name="figure" />
+		</div>
 	</div>
-	<div class="figure" aria-hidden="true">
-		<slot name="figure" />
-	</div>
-	<slot />
-</div>
+</Card>
 
 <style>
 	.description {
@@ -21,9 +23,7 @@
 	.project {
 		display: flex;
 		flex-wrap: wrap;
-		background-color: var(--nord-1);
-		border-radius: 12px;
-		padding: 3px;
+		gap: 6px;
 		align-items: flex-start;
 	}
 
@@ -35,14 +35,13 @@
 	:global(p) {
 		font-size: 1.25rem;
 		text-align: left;
-		padding: 0 8px;
 	}
 
 	:global(h2) {
 		margin: 0 0 0 0;
 		font-size: 2.5rem;
 		text-align: left;
-		padding-left: 8px;
+		margin: 0;
 	}
 
 	:global(a, span) {

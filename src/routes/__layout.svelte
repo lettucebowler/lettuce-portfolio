@@ -19,17 +19,16 @@
 	<link rel="icon" type="image/png" href="/favicon.png" />
 	<link rel="stylesheet" href="/icomoon.css" />
 </svelte:head>
-<body>
+
+<PageContentContainer>
+	<Navbar {links} />
 	<main>
-		<PageContentContainer>
-			<Navbar {links} />
-			<slot />
-		</PageContentContainer>
+		<slot />
 	</main>
-</body>
+</PageContentContainer>
 
 <style>
-	body {
+	:global(body) {
 		background-color: var(--nord-0);
 		margin: 0px 0px;
 	}

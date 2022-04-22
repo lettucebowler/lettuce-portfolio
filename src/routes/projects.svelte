@@ -7,26 +7,29 @@
 	import SudokuProject from '$lib/components/SudokuProject.svelte';
 	import WordleProject from '$lib/components/WordleProject.svelte';
 	import GithubProject from '$lib/components/GithubProject.svelte';
-	import Project from '$lib/components/Project.svelte';
+	import Card from '$lib/components/Card.svelte';
 </script>
 
 <svelte:head>
 	<title>Projects</title>
 </svelte:head>
 
-<Project>
-	<div class="content">
+<div class="projects">
+	<Card>
 		<h1>Projects</h1>
 		<p>Below are the personal projects I currently feel like showing off.</p>
-	</div>
-</Project>
-<SudokuProject />
-<WordleProject />
-<GithubProject />
+	</Card>
+	<SudokuProject />
+	<WordleProject />
+	<GithubProject />
+</div>
 
 <style>
-	.content {
-		flex: 1 1 auto;
+
+	.projects {
+		display: flex; 
+		flex-direction: column;
+		gap: 8px;
 	}
 
 	h1 {
@@ -36,7 +39,6 @@
 
 	p {
 		font-size: 1.25rem;
-		padding: 0px 14px;
 		text-align: center;
 	}
 </style>
