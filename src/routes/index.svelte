@@ -1,11 +1,9 @@
 <script context="module">
-	export const hydrate = false;
 	export const prerender = true;
 </script>
 
 <script lang="ts">
 	import IconLink from '$lib/components/IconLink.svelte';
-	import Spacing from '$lib/components/Spacing.svelte';
 	import Card from '$lib/components/Card.svelte';
 </script>
 

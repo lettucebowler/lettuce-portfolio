@@ -38,7 +38,6 @@
 		flex-direction: column;
 		display: flex;
 		text-align: center;
-		min-height: 50vh;
 		color: var(--nord-4);
 	}
 </style>

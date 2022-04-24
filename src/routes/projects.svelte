@@ -1,5 +1,4 @@
 <script context="module">
-	export const hydrate = false;
 	export const prerender = true;
 </script>
 
@@ -25,9 +24,8 @@
 </div>
 
 <style>
-
 	.projects {
-		display: flex; 
+		display: flex;
 		flex-direction: column;
 		gap: 8px;
 	}
