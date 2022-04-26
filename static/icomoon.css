@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src: url('fonts/icomoon.eot?5yksge');
-	src: url('fonts/icomoon.eot?5yksge#iefix') format('embedded-opentype'),
-		url('fonts/icomoon.ttf?5yksge') format('truetype'),
-		url('fonts/icomoon.woff?5yksge') format('woff'),
-		url('fonts/icomoon.svg?5yksge#icomoon') format('svg');
+	src: url('fonts/icomoon.eot?cqqc17');
+	src: url('fonts/icomoon.eot?cqqc17#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?cqqc17') format('truetype'),
+		url('fonts/icomoon.woff?cqqc17') format('woff'),
+		url('fonts/icomoon.svg?cqqc17#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 	font-display: block;
@@ -26,9 +26,9 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-insert_drive_file:before {
+.icon-account_box:before {
 	content: '\e900';
 }
-.icon-git:before {
-	content: '\eae7';
+.icon-description:before {
+	content: '\e901';
 }

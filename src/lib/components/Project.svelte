@@ -1,5 +1,4 @@
 <script>
-	import '$lib/styles/app.css';
 	import Card from '$lib/components/Card.svelte';
 </script>
 
@@ -16,8 +15,8 @@
 
 <style>
 	.description {
-		margin: 3px;
-		flex: 2 2 30rem;
+		flex: 2 1 15rem;
+		padding: 1rem;
 	}
 
 	.project {
@@ -28,8 +27,8 @@
 	}
 
 	.figure {
-		margin: 3px;
 		flex: 1 1 15rem;
+		margin: 6px;
 	}
 
 	:global(p) {
@@ -38,7 +37,6 @@
 	}
 
 	:global(h2) {
-		margin: 0 0 0 0;
 		font-size: 2.5rem;
 		text-align: left;
 		margin: 0;

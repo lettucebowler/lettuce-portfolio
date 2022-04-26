@@ -1,7 +1,3 @@
-<script context="module">
-	export const prerender = true;
-</script>
-
 <script lang="ts">
 	import SudokuProject from '$lib/components/SudokuProject.svelte';
 	import WordleProject from '$lib/components/WordleProject.svelte';

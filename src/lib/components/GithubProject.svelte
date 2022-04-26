@@ -1,37 +1,25 @@
 <script>
-	import Project from '$lib/components/Project.svelte';
+	import Card from '$lib/components/Card.svelte';
 </script>
 
-<Project>
-	<svelte:fragment slot="description">
-		<a href="https://github.com/lettucebowler" target="_blank"><h2>Everything else</h2></a>
+<Card>
+	<div>
+		<h2>Everything else</h2>
 		<p>
 			I have a few other public projects on my <a
 				href="https://github.com/lettucebowler"
 				target="_blank">Github</a
 			>. Feel free to browse the code, file an issue, star a repo, or submit a PR!
 		</p>
-	</svelte:fragment>
-	<svelte:fragment slot="figure">
-		<div class="figure">
-			<span class="icon-git octocat" />
-		</div>
-	</svelte:fragment>
-</Project>
+	</div>
+</Card>
 
 <style>
-	.figure {
-		display: flex;
-		justify-content: center;
-		width: 100%;
+	div {
+		margin: 1rem;
 	}
 
-	span {
-		display: flex;
-		margin: auto;
-	}
-
-	.octocat {
-		font-size: 15rem;
+	h2 {
+		color: var(--nord-14);
 	}
 </style>

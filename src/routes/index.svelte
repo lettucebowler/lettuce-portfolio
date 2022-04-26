@@ -1,7 +1,3 @@
-<script context="module">
-	export const prerender = true;
-</script>
-
 <script lang="ts">
 	import IconLink from '$lib/components/IconLink.svelte';
 	import Card from '$lib/components/Card.svelte';
@@ -13,18 +9,17 @@
 
 <Card>
 	<h1>Hello, I'm Grant!</h1>
-	<div class="tagline">Web Developer | Sudoku Enthusiast | Linux Hobbyist</div>
 	<p>
-		I like Sudoku puzzles and I like learning new things. I'm a web developer currently working in
-		the healthcare industry.
+		I like Sudoku puzzles and learning new things. I'm a web developer currently working in the
+		healthcare industry.
 	</p>
 	<div class="block">
 		<div class="content">
 			<div class="margin">
-				<IconLink href="/Resume.pdf" icon="insert_drive_file" color="twelve" caption="Resume" />
+				<IconLink href="/Resume.pdf" icon="description" color="twelve" caption="Resume" />
 			</div>
 			<div class="margin">
-				<IconLink href="https://github.com/lettucebowler" icon="git" caption="Github" />
+				<IconLink href="https://github.com/lettucebowler" icon="account_box" caption="Github" />
 			</div>
 		</div>
 	</div>
@@ -37,7 +32,7 @@
 	}
 
 	p {
-		font-size: 1.25rem;
+		font-size: 1.5rem;
 		padding: 0px 14px;
 		text-align: center;
 	}
@@ -59,11 +54,5 @@
 	.margin {
 		margin: 3px 8px;
 		flex: 1 1 auto;
-	}
-
-	.tagline {
-		font-size: 1.5rem;
-		margin: 1.5rem 0;
-		font-weight: 500;
 	}
 </style>
