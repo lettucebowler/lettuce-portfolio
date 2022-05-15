@@ -6,7 +6,7 @@
 <div>
 	{#each data as word, i}
 		{#each word.word as letter, j}
-			<LetterBox letter={letter?.letter || ''} status={letter?.status || 'none'} top={!i} left={!j} right={j === 4} />
+			<LetterBox letter={letter?.letter || ''} status={letter?.status || 'none'} />
 		{/each}
 	{/each}
 </div>

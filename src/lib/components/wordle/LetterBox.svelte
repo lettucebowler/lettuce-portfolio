@@ -1,9 +1,6 @@
 <script>
 	export let letter;
 	export let status;
-	export let top;
-	export let left;
-	export let right;
 </script>
 
 <div class={`${status}`}>
