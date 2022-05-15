@@ -4,9 +4,9 @@
 </script>
 
 <div>
-	{#each data as word}
-		{#each word.word as letter}
-			<LetterBox letter={letter?.letter || ''} status={letter?.status || 'none'} />
+	{#each data as word, i}
+		{#each word.word as letter, j}
+			<LetterBox letter={letter?.letter || ''} status={letter?.status || 'none'} top={!i} left={!j} right={j === 4} />
 		{/each}
 	{/each}
 </div>

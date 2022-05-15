@@ -1,9 +1,12 @@
 <script>
 	export let letter;
 	export let status;
+	export let top;
+	export let left;
+	export let right;
 </script>
 
-<div class={status}>
+<div class={`${status}`}>
 	{letter.toUpperCase()}
 </div>
 
@@ -16,7 +19,7 @@
 		vertical-align: center;
 		display: inline-flex;
 		font-size: 1.5rem;
-		border-radius: 6px;
+		border-radius: 16px;
 		color: var(--nord-6);
 		font-weight: 500;
 	}

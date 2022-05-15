@@ -1,5 +1,6 @@
 <script>
 	import Project from '$lib/components/Project.svelte';
+    import DexCard from '$lib/components/pokedex/DexCard.svelte';
 </script>
 
 <Project>
@@ -13,4 +14,7 @@
 			<a href="https://github.com/lettucebowler/lettuce-pokedex" target="_blank">Github</a>.
 		</p>
 	</svelte:fragment>
+    <svelte:fragment slot="figure">
+        <DexCard />
+    </svelte:fragment>
 </Project>

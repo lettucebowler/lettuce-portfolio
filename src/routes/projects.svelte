@@ -14,7 +14,7 @@
 	<p>Here are a few personal projects that I currently feel like showing off.</p>
 	<SudokuProject />
 	<WordleProject />
-	<!-- <PokedexProject /> -->
+	<PokedexProject />
 	<GithubProject />
 </div>
 

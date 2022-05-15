@@ -71,19 +71,19 @@
 	}
 
 	.topLeft {
-		border-radius: 6px 0 0 0;
+		border-radius: 16px 0 0 0;
 	}
 
 	.topRight {
-		border-radius: 0 6px 0 0;
+		border-radius: 0 16px 0 0;
 	}
 
 	.bottomLeft {
-		border-radius: 0 0 0 6px;
+		border-radius: 0 0 0 16px;
 	}
 
 	.bottomRight {
-		border-radius: 0 0 6px 0;
+		border-radius: 0 0 16px 0;
 	}
 
 	.initial {
