@@ -20,7 +20,7 @@
 		margin: 0 auto;
 	}
 
-	.center {
+	/* .center {
 		margin: 0 0;
-	}
+	} */
 </style>

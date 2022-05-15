@@ -6,7 +6,7 @@
 
 <Project>
 	<svelte:fragment slot="description">
-		<a href="https://word.lettucebowler.net" target="_blank"><h2>WordLettuce</h2></a>
+		<h2>WordLettuce</h2>
 		<p>
 			Wordle clone made with <a href="https://kit.svelte.dev" target="_blank">svelte-kit</a>. My job
 			blocked the real wordle and I wanted to keep playing and sharing scores with my coworkers so I
@@ -172,3 +172,9 @@
 		/>
 	</svelte:fragment>
 </Project>
+
+<style>
+	h2 {
+		color: var(--nord-14);
+	}
+</style>

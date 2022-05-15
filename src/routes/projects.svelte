@@ -2,7 +2,7 @@
 	import SudokuProject from '$lib/components/SudokuProject.svelte';
 	import WordleProject from '$lib/components/WordleProject.svelte';
 	import GithubProject from '$lib/components/GithubProject.svelte';
-	import Card from '$lib/components/Card.svelte';
+	import PokedexProject from '$lib/components/PokedexProject.svelte';
 </script>
 
 <svelte:head>
@@ -10,12 +10,11 @@
 </svelte:head>
 
 <div class="projects">
-	<Card>
-		<h1>Projects</h1>
-		<p>Below are the personal projects I currently feel like showing off.</p>
-	</Card>
+	<h1>Projects</h1>
+	<p>Here are a few personal projects that I currently feel like showing off.</p>
 	<SudokuProject />
 	<WordleProject />
+	<!-- <PokedexProject /> -->
 	<GithubProject />
 </div>
 

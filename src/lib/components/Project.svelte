@@ -28,7 +28,6 @@
 
 	.figure {
 		flex: 1 1 15rem;
-		margin: 6px;
 	}
 
 	:global(p) {
@@ -40,6 +39,7 @@
 		font-size: 2.5rem;
 		text-align: left;
 		margin: 0;
+		color: var(--nord-14);
 	}
 
 	:global(a, span) {

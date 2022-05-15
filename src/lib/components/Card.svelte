@@ -6,5 +6,6 @@
 	div {
 		background-color: var(--nord-1);
 		border-radius: 12px;
+		padding: 6px;
 	}
 </style>
