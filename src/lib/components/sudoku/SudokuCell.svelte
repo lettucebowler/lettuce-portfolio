@@ -70,22 +70,6 @@
 		background-color: var(--nord-9);
 	}
 
-	.topLeft {
-		border-radius: 16px 0 0 0;
-	}
-
-	.topRight {
-		border-radius: 0 16px 0 0;
-	}
-
-	.bottomLeft {
-		border-radius: 0 0 0 16px;
-	}
-
-	.bottomRight {
-		border-radius: 0 0 16px 0;
-	}
-
 	.initial {
 		color: var(--nord-2);
 	}

@@ -11,7 +11,10 @@
 
 <div class="projects">
 	<h1>Projects</h1>
-	<p>Here are a few personal projects that I currently feel like showing off.</p>
+	<p>
+		Here are a few personal projects that I currently feel like showing off. I've recently been
+		really into sveltekit so you'll find a few of my sveltekit projects below.
+	</p>
 	<SudokuProject />
 	<WordleProject />
 	<PokedexProject />
