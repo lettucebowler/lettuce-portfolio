@@ -20,14 +20,14 @@
 
 	.types {
 		background-color: #f8d030;
-		color: white;
+		color: black;
+		font-weight: 500;
 		border-radius: 4px;
 		padding: 4px;
 	}
 
 	img {
-		height: 100%;
-		width: 100%;
+		max-height: 300px;
 		aspect-ratio: 1;
 	}
 </style>
