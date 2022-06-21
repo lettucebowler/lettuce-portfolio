@@ -12,11 +12,11 @@ COPY . .
 
 RUN npm run build
 
-FROM node:18-slim
+FROM nginx:latest
 
 WORKDIR /app
 COPY --from=0 /app .
-COPY . .
+COPY . /usr/share/nginx/html
 
-EXPOSE 3000
-CMD ["node", "./build"]
+# EXPOSE 3000
+# CMD ["node", "./build"]
