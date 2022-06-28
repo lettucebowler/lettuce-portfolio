@@ -16,7 +16,7 @@ FROM nginx:latest
 
 WORKDIR /app
 COPY --from=0 /app .
-COPY . /usr/share/nginx/html
+COPY build /usr/share/nginx/html
 
 # EXPOSE 3000
 # CMD ["node", "./build"]
