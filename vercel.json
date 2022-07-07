@@ -1,7 +1,7 @@
 {
 	"headers": [
 		{
-			"source": "*/__data(.)json",
+			"source": "/*/__data(.)json",
 			"headers": [
                 {
                     "key": "Cache-Control",
