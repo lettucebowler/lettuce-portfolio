@@ -10,7 +10,7 @@
             ]
 		},
         {
-			"source": "/:path*/*(.)webp",
+			"source": "/:path*(.)webp",
 			"headers": [
                 {
                     "key": "Cache-Control",
