@@ -2,17 +2,21 @@
 	"headers": [
 		{
 			"source": "/*/__data.json",
-			"headers": {
-				"key": "Cache-Control",
-				"value": "public, max-age=2592000000"
-			}
+			"headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=2592000000"
+                }
+            ]
 		},
 		{
 			"source": "/*(.)js",
-			"headers": {
-				"key": "Cache-Control",
-				"value": "public, max-age=2592000000"
-			}
+			"headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=2592000000"
+                }
+            ]
 		}
 	]
 }
