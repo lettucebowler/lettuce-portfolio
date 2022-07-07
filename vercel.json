@@ -9,6 +9,15 @@
                 }
             ]
 		},
+        {
+			"source": "/:path*/*(.)webp",
+			"headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=2592000000"
+                }
+            ]
+		},
 		{
 			"source": "/:path*(.)js",
 			"headers": [
