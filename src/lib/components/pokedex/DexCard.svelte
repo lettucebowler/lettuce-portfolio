@@ -3,7 +3,7 @@
 
 <div class="inner">
 	<div class="image">
-		<img src="https://cdn.dex.rusondia.net/home/25.webp" alt="pikachu" />
+		<img src="/25.webp" alt="pikachu" />
 	</div>
 	<div class="types">electric</div>
 </div>
