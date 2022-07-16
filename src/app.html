@@ -3,8 +3,12 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="description" content="Grant Montgomery portfolio" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<link rel="stylesheet" href="%sveltekit.assets%/app.css" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#a3be8c" />
+		<meta name="msapplication-TileColor" content="#da532c" />
+		<meta name="theme-color" content="#2e3440" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%sveltekit.head%
 	</head>
@@ -12,20 +16,3 @@
 		<div>%sveltekit.body%</div>
 	</body>
 </html>
-
-<style>
-	::-webkit-scrollbar {
-		width: 12px;
-	}
-
-	::-webkit-scrollbar-thumb {
-		background: var(--nord-2);
-		border-right: var(--nord-0) solid 4px;
-		border-top: var(--nord-0) solid 4px;
-		border-bottom: var(--nord-0) solid 4px;
-	}
-
-	::-webkit-scrollbar-thumb:hover {
-		background: var(--nord-3);
-	}
-</style>

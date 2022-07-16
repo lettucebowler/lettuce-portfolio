@@ -1,9 +1,10 @@
 <script>
+	import pikachu from '$lib/assets/25.webp';
 </script>
 
 <div class="inner">
 	<div class="image">
-		<img src="/25.webp" alt="pikachu" />
+		<img src={pikachu} alt="pikachu" />
 	</div>
 	<div class="types">electric</div>
 </div>

@@ -1,6 +1,8 @@
 <script lang="ts">
 	import PageContentContainer from '$lib/components/PageContentContainer.svelte';
 	import Navbar from '$lib/components/Navbar.svelte';
+	import '$lib/assets/icomoon.css';
+	import '$lib/assets/app.css';
 
 	const links = [
 		{
@@ -13,11 +15,6 @@
 		}
 	];
 </script>
-
-<svelte:head>
-	<link rel="icon" type="image/png" href="/favicon.png" />
-	<link rel="stylesheet" href="/icomoon.css" />
-</svelte:head>
 
 <PageContentContainer>
 	<Navbar {links} />
