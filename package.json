@@ -2,7 +2,7 @@
 	"name": "lettuce-portfolio",
 	"version": "0.0.1",
 	"scripts": {
-		"dev": "vite dev --host 0.0.0.0",
+		"dev": "vite dev --host 0.0.0.0 --port 3000",
 		"build": "vite build",
 		"package": "svelte-kit package",
 		"preview": "vite preview",
@@ -13,7 +13,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-node": "1.0.0-next.78",
-		"@sveltejs/adapter-vercel": "1.0.0-next.60",
+		"@sveltejs/adapter-vercel": "next",
 		"@sveltejs/kit": "next",
 		"@typescript-eslint/eslint-plugin": "^5.33.1",
 		"@typescript-eslint/parser": "^5.33.1",
