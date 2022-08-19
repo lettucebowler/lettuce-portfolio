@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 :root {
+	background-color: var(--nord-0);
+
 	--nord-0: #2e3440;
 	--nord-1: #3b4252;
 	--nord-2: #434c5e;

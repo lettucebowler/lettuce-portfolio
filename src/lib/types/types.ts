@@ -7,13 +7,6 @@ export type Cell = {
 	col: number;
 };
 
-export type CellSelectionEvent = {
-	detail: {
-		row: number;
-		col: number;
-	};
-};
-
 export enum Status {
 	NONE = 'none',
 	CONTAINS = 'contains',

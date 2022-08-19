@@ -5,11 +5,18 @@
 
 <Project>
 	<svelte:fragment slot="description">
-		<h2>Sveltedoku</h2>
-		<p>
-			Sudoku Game made using <a href="https://kit.svelte.dev" target="_blank">svelte-kit</a>.
-			<a href="https://sudoku.rusondia.net" target="_blank">Playable here</a>. Code available on
-			<a href="https://github.com/lettucebowler/sveltedoku" target="_blank">Github</a>.
+		<h2 class="text-2xl">Sveltedoku</h2>
+		<p class="p-4 text-lg text-left">
+			Sudoku game made using <a
+				class="text-aurora-400"
+				href="https://kit.svelte.dev"
+				target="_blank">svelte-kit</a
+			>.
+			<a class="text-aurora-400" href="https://sudoku.rusondia.net" target="_blank">Playable here</a
+			>. Code available on
+			<a class="text-aurora-400" href="https://github.com/lettucebowler/sveltedoku" target="_blank"
+				>Github</a
+			>.
 		</p>
 	</svelte:fragment>
 	<svelte:fragment slot="figure">

@@ -26,24 +26,10 @@
 	<link rel="mask-icon" href={safariPinnedTabIcon} color="#a3be8c" />
 </svelte:head>
 
+<svelte:body class="bg-polar-100" />
 <PageContentContainer>
 	<Navbar {links} />
-	<main>
+	<main class="justify-start flex text-center text-snow-300">
 		<slot />
 	</main>
 </PageContentContainer>
-
-<style>
-	:global(body) {
-		background-color: var(--nord-0);
-		margin: 0px 0px;
-	}
-
-	main {
-		justify-content: start;
-		flex-direction: column;
-		display: flex;
-		text-align: center;
-		color: var(--nord-4);
-	}
-</style>

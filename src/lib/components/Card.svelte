@@ -1,3 +1,3 @@
-<div class="bg-polar-300 rounded-2xl p-3">
+<div class="bg-polar-200 rounded-2xl p-2">
 	<slot />
 </div>

@@ -1,28 +1,17 @@
 <script>
-	export let order = 3;
+	const order = 3;
 	export let board = false;
+	import classnames from 'classnames';
 </script>
 
-<div class={`${order === 3 ? 'three' : 'two'} ${board ? 'board' : ''}`}>
+<div class={classnames('three bg-polar-300 grid gap-[1px]', { board: board })}>
 	<slot />
 </div>
 
 <style>
-	div {
-		background-color: var(--nord-2);
-		display: grid;
-		grid-gap: 1px;
-		border-radius: 6px;
-	}
-
 	.three {
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: 1fr 1fr 1fr;
-	}
-
-	.two {
-		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 1fr 1fr;
 	}
 
 	.board {

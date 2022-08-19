@@ -6,13 +6,22 @@
 
 <Project>
 	<svelte:fragment slot="description">
-		<h2>WordLettuce</h2>
-		<p>
-			Wordle clone made with <a href="https://kit.svelte.dev" target="_blank">svelte-kit</a>. My job
-			blocked the real wordle and I wanted to keep playing and sharing scores with my coworkers so I
-			made my own.
-			<a href="https://word.lettucebowler.net" target="_blank">Playable here</a>. Code available on
-			<a href="https://github.com/lettucebowler/lettuce-wordle" target="_blank">Github</a>.
+		<h2 class="text-2xl">WordLettuce</h2>
+		<p class="p-4 text-lg text-left">
+			Wordle clone made using <a
+				class="text-aurora-400"
+				href="https://kit.svelte.dev"
+				target="_blank">svelte-kit</a
+			>. My job blocked the real wordle and I wanted to keep playing and sharing scores with my
+			coworkers so I made my own.
+			<a class="text-aurora-400" href="https://word.lettucebowler.net" target="_blank"
+				>Playable here</a
+			>. Code available on
+			<a
+				class="text-aurora-400"
+				href="https://github.com/lettucebowler/lettuce-wordle"
+				target="_blank">Github</a
+			>.
 		</p>
 	</svelte:fragment>
 	<svelte:fragment slot="figure">
@@ -172,9 +181,3 @@
 		/>
 	</svelte:fragment>
 </Project>
-
-<style>
-	h2 {
-		color: var(--nord-14);
-	}
-</style>

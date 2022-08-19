@@ -1,38 +1,21 @@
 <script lang="ts">
 	import SudokuProject from '$lib/components/SudokuProject.svelte';
 	import WordleProject from '$lib/components/WordleProject.svelte';
-	import GithubProject from '$lib/components/GithubProject.svelte';
 	import PokedexProject from '$lib/components/PokedexProject.svelte';
+	import P from '$lib/components/util/P.svelte';
 </script>
 
 <svelte:head>
 	<title>Projects</title>
 </svelte:head>
 
-<div class="projects">
-	<h1>Projects</h1>
-	<p>
+<div class="flex flex-col gap-2">
+	<h1 class="text-6xl leading-normal">Projects</h1>
+	<P>
 		Here are a few personal projects that I currently feel like showing off. I've recently been
 		getting into sveltekit so you'll find a few of my sveltekit projects below.
-	</p>
+	</P>
 	<SudokuProject />
 	<WordleProject />
 	<PokedexProject />
-	<GithubProject />
 </div>
-
-<style>
-	.projects {
-		display: flex;
-		flex-direction: column;
-		gap: 8px;
-	}
-
-	h1 {
-		font-size: 3.75rem;
-		margin: 0 0 0 0;
-	}
-
-	p {
-	}
-</style>

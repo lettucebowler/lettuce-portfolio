@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
-  theme: {
+	theme: {
 		colors: {
 			transparent: 'transparent',
 			polar: {
@@ -28,7 +28,7 @@ module.exports = {
 				400: '#A3BE8C',
 				500: '#B48EAD'
 			}
-		},
-  },
-  plugins: [],
-}
+		}
+	},
+	plugins: []
+};
