@@ -664,9 +664,9 @@
 	<div>Board is not correct length.</div>
 {:else if board?.length}
 	<div class="container">
-		<SudokuBlock board {order}>
+		<SudokuBlock board>
 			{#each chunks as chunk}
-				<SudokuBlock {order}>
+				<SudokuBlock>
 					{#each chunk as cell}
 						<SudokuCell
 							number={cell.number.toString()}
