@@ -16,10 +16,10 @@
 	<div class="block">
 		<div class="content">
 			<div class="margin">
-				<IconLink href="/Resume.pdf" icon="description" color="twelve" caption="Resume" />
+				<IconLink href="/Resume.pdf" icon="download" caption="Resume" />
 			</div>
 			<div class="margin">
-				<IconLink href="https://github.com/lettucebowler" icon="account_box" caption="Github" />
+				<IconLink href="https://github.com/lettucebowler" icon="code" caption="Github" />
 			</div>
 		</div>
 	</div>
@@ -31,21 +31,22 @@
 		margin: 0 0 0 0;
 	}
 
-	p {
+	/* p {
 		font-size: 1.5rem;
 		padding: 0px 14px;
 		text-align: center;
-	}
+	} */
 
 	.block {
 		display: flex;
 		flex-wrap: wrap;
-		align-items: flex-start;
+		justify-content: center
+		/* align-items: flex-start; */
 	}
 
 	.content {
 		flex-wrap: wrap;
-		flex: 1 1 auto;
+		/* flex: 1 1 auto; */
 		justify-content: center;
 		flex-direction: row;
 		display: flex;
@@ -53,6 +54,6 @@
 
 	.margin {
 		margin: 3px 8px;
-		flex: 1 1 auto;
+		/* flex: 1 1 auto; */
 	}
 </style>

@@ -13,7 +13,7 @@
 	</div>
 </Card>
 
-<style>
+<!-- <style>
 	.description {
 		flex: 2 1 15rem;
 		padding: 1rem;
@@ -46,4 +46,4 @@
 		text-decoration: none;
 		color: var(--nord-14);
 	}
-</style>
+</style> -->

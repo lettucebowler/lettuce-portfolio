@@ -1,7 +1,6 @@
 <script lang="ts">
 	import PageContentContainer from '$lib/components/PageContentContainer.svelte';
 	import Navbar from '$lib/components/Navbar.svelte';
-	import '$lib/assets/icomoon.css';
 	import '$lib/assets/app.css';
 	import smallFavicon from '$lib/assets/favicon-16x16.png';
 	import bigFavicon from '$lib/assets/favicon-32x32.png';
