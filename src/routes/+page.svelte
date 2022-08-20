@@ -1,6 +1,6 @@
 <script lang="ts">
 	import IconLink from '$lib/components/IconLink.svelte';
-	import Card from '$lib/components/Card.svelte';
+	import Card from '$lib/components/util/Card.svelte';
 	import P from '$lib/components/util/P.svelte';
 </script>
 
