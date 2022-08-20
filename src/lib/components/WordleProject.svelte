@@ -1,7 +1,6 @@
 <script>
 	import Project from '$lib/components/Project.svelte';
 	import LetterGrid from '$lib/components/wordle/LetterGrid.svelte';
-	import { Status } from '$lib/types/types';
 
 	const data = JSON.parse(
 		'[{"complete":true,"word":[{"letter":"s","status":"incorrect"},{"letter":"l","status":"incorrect"},{"letter":"a","status":"correct"},{"letter":"t","status":"contains"},{"letter":"e","status":"incorrect"}]},{"complete":true,"word":[{"letter":"c","status":"incorrect"},{"letter":"r","status":"correct"},{"letter":"o","status":"incorrect"},{"letter":"n","status":"correct"},{"letter":"y","status":"incorrect"}]},{"complete":true,"word":[{"letter":"g","status":"correct"},{"letter":"r","status":"correct"},{"letter":"u","status":"incorrect"},{"letter":"n","status":"correct"},{"letter":"t","status":"correct"}]},{"complete":true,"word":[{"letter":"g","status":"correct"},{"letter":"r","status":"correct"},{"letter":"a","status":"correct"},{"letter":"n","status":"correct"},{"letter":"t","status":"correct"}]},{"complete":true,"word":[{"letter":"","status":"none"},{"letter":"","status":"none"},{"letter":"","status":"none"},{"letter":"","status":"none"},{"letter":"","status":"none"}]},{"complete":true,"word":[{"letter":"","status":"none"},{"letter":"","status":"none"},{"letter":"","status":"none"},{"letter":"","status":"none"},{"letter":"","status":"none"}]}]'

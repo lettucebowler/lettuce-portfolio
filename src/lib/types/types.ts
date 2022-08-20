@@ -7,16 +7,9 @@ export type Cell = {
 	col: number;
 };
 
-export enum Status {
-	NONE = 'none',
-	CONTAINS = 'contains',
-	CORRECT = 'correct',
-	INCORRECT = 'incorrect'
-}
-
 export type Letter = {
 	letter: string;
-	status: Status;
+	status: string;
 };
 
 export type Word = {
