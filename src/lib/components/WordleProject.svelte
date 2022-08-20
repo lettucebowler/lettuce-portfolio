@@ -2,6 +2,10 @@
 	import Project from '$lib/components/Project.svelte';
 	import LetterGrid from '$lib/components/wordle/LetterGrid.svelte';
 	import { Status } from '$lib/types/types';
+
+	const data = JSON.parse(
+		'[{"complete":true,"word":[{"letter":"s","status":"incorrect"},{"letter":"l","status":"incorrect"},{"letter":"a","status":"correct"},{"letter":"t","status":"contains"},{"letter":"e","status":"incorrect"}]},{"complete":true,"word":[{"letter":"c","status":"incorrect"},{"letter":"r","status":"correct"},{"letter":"o","status":"incorrect"},{"letter":"n","status":"correct"},{"letter":"y","status":"incorrect"}]},{"complete":true,"word":[{"letter":"g","status":"correct"},{"letter":"r","status":"correct"},{"letter":"u","status":"incorrect"},{"letter":"n","status":"correct"},{"letter":"t","status":"correct"}]},{"complete":true,"word":[{"letter":"g","status":"correct"},{"letter":"r","status":"correct"},{"letter":"a","status":"correct"},{"letter":"n","status":"correct"},{"letter":"t","status":"correct"}]},{"complete":true,"word":[{"letter":"","status":"none"},{"letter":"","status":"none"},{"letter":"","status":"none"},{"letter":"","status":"none"},{"letter":"","status":"none"}]},{"complete":true,"word":[{"letter":"","status":"none"},{"letter":"","status":"none"},{"letter":"","status":"none"},{"letter":"","status":"none"},{"letter":"","status":"none"}]}]'
+	);
 </script>
 
 <Project>
@@ -25,159 +29,6 @@
 		</p>
 	</svelte:fragment>
 	<svelte:fragment slot="figure">
-		<LetterGrid
-			data={[
-				{
-					complete: true,
-					word: [
-						{
-							letter: 's',
-							status: Status.INCORRECT
-						},
-						{
-							letter: 'l',
-							status: Status.INCORRECT
-						},
-						{
-							letter: 'a',
-							status: Status.CORRECT
-						},
-						{
-							letter: 't',
-							status: Status.CONTAINS
-						},
-						{
-							letter: 'e',
-							status: Status.INCORRECT
-						}
-					]
-				},
-				{
-					complete: true,
-					word: [
-						{
-							letter: 'c',
-							status: Status.INCORRECT
-						},
-						{
-							letter: 'r',
-							status: Status.CORRECT
-						},
-						{
-							letter: 'o',
-							status: Status.INCORRECT
-						},
-						{
-							letter: 'n',
-							status: Status.CORRECT
-						},
-						{
-							letter: 'y',
-							status: Status.INCORRECT
-						}
-					]
-				},
-				{
-					complete: true,
-					word: [
-						{
-							letter: 'g',
-							status: Status.CORRECT
-						},
-						{
-							letter: 'r',
-							status: Status.CORRECT
-						},
-						{
-							letter: 'u',
-							status: Status.INCORRECT
-						},
-						{
-							letter: 'n',
-							status: Status.CORRECT
-						},
-						{
-							letter: 't',
-							status: Status.CORRECT
-						}
-					]
-				},
-				{
-					complete: true,
-					word: [
-						{
-							letter: 'g',
-							status: Status.CORRECT
-						},
-						{
-							letter: 'r',
-							status: Status.CORRECT
-						},
-						{
-							letter: 'a',
-							status: Status.CORRECT
-						},
-						{
-							letter: 'n',
-							status: Status.CORRECT
-						},
-						{
-							letter: 't',
-							status: Status.CORRECT
-						}
-					]
-				},
-				{
-					complete: true,
-					word: [
-						{
-							letter: '',
-							status: Status.NONE
-						},
-						{
-							letter: '',
-							status: Status.NONE
-						},
-						{
-							letter: '',
-							status: Status.NONE
-						},
-						{
-							letter: '',
-							status: Status.NONE
-						},
-						{
-							letter: '',
-							status: Status.NONE
-						}
-					]
-				},
-				{
-					complete: true,
-					word: [
-						{
-							letter: '',
-							status: Status.NONE
-						},
-						{
-							letter: '',
-							status: Status.NONE
-						},
-						{
-							letter: '',
-							status: Status.NONE
-						},
-						{
-							letter: '',
-							status: Status.NONE
-						},
-						{
-							letter: '',
-							status: Status.NONE
-						}
-					]
-				}
-			]}
-		/>
+		<LetterGrid {data} />
 	</svelte:fragment>
 </Project>

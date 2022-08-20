@@ -688,7 +688,7 @@
 	.container {
 		width: 100%;
 		aspect-ratio: 1;
-		border-radius: 12px;
+		border-radius: 8px;
 		overflow: hidden;
 		margin: auto;
 	}

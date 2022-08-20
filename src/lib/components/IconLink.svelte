@@ -18,7 +18,7 @@
 	]);
 </script>
 
-<figure class="flex flex-col justify-end h-full">
+<figure class="flex flex-col justify-end">
 	<a {href} title={caption} target="_blank" class="block hover:brightness-90"
 		><svg
 			xmlns="http://www.w3.org/2000/svg"

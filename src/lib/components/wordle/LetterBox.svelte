@@ -16,7 +16,7 @@
 		vertical-align: center;
 		display: inline-flex;
 		font-size: 1.5rem;
-		border-radius: 16px;
+		border-radius: 8px;
 		color: var(--nord-6);
 		font-weight: 500;
 	}

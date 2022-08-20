@@ -15,10 +15,14 @@
 			I like Sudoku puzzles and learning new things. I'm a web developer currently working in the
 			healthcare industry.
 		</P>
-		<div class="flex justify-center flex-wrap">
-			<div class="flex flex-auto flex-wrap justify-around">
-				<IconLink href="/Resume.pdf" icon="download" caption="Resume" color="orange" />
-				<IconLink href="https://github.com/lettucebowler" icon="code" caption="Github" />
+		<div class="flex justify-center">
+			<div class="flex flex-auto justify-around">
+				<div class="flex-[0_1_32px]">
+					<IconLink href="/Resume.pdf" icon="download" caption="Resume" color="orange" />
+				</div>
+				<div class="flex-[0_1_32px]">
+					<IconLink href="https://github.com/lettucebowler" icon="code" caption="Github" />
+				</div>
 			</div>
 		</div>
 	</div>
