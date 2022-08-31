@@ -9,10 +9,7 @@ const config = {
 		})
 	],
 	kit: {
-		adapter: adapter({ out: 'build', edge: true }),
-		prerender: {
-			default: true
-		}
+		adapter: adapter({ out: 'build', edge: true })
 	}
 };
 

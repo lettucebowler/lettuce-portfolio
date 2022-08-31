@@ -9,7 +9,7 @@
 	<svelte:fragment slot="description">
 		<h2 class="text-2xl">Lettuce Pokedex</h2>
 		<P>
-			Frontend to the Pokeapi build with <A href="https://kit.svelte.dev">svelte-kit</A>
+			Frontend to the Pokeapi built with <A href="https://kit.svelte.dev">svelte-kit</A>
 			<A href="https://dex.rusondia.net" target="_blank">Check it out here</A>. Code available on
 			<A href="https://github.com/lettucebowler/lettuce-pokedex" target="_blank">Github</A>.
 		</P>
