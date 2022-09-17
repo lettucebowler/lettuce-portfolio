@@ -1,6 +1,4 @@
 <script lang="ts">
-	import classNames from 'classnames';
-
 	export let icon: string;
 	export let href: string;
 	export let caption = 'caption';
@@ -24,10 +22,8 @@
 			xmlns="http://www.w3.org/2000/svg"
 			viewBox="0 0 20 20"
 			fill="currentColor"
-			class={classNames({
-				'text-aurora-400': color === 'green',
-				'text-aurora-200': color === 'orange'
-			})}
+			class:text-aurora-400={color === 'green'}
+			class:text-aurora-200={color === 'orange'}
 		>
 			<path fill-rule="evenodd" d={icons.get(icon)} clip-rule="evenodd" />
 		</svg>
