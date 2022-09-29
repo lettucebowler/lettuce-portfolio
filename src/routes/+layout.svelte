@@ -29,7 +29,7 @@
 <svelte:body class="bg-polar-100" />
 <PageContentContainer>
 	<Navbar {links} />
-	<main class="justify-start flex text-center text-snow-300">
+	<main class="flex justify-start text-center text-snow-300">
 		<slot />
 	</main>
 </PageContentContainer>

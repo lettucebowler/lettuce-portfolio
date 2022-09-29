@@ -10,7 +10,7 @@
 <Project>
 	<svelte:fragment slot="description">
 		<h2 class="text-2xl">WordLettuce</h2>
-		<p class="p-4 text-lg text-left">
+		<p class="p-4 text-left text-lg">
 			Wordle clone made using <a
 				class="text-aurora-400"
 				href="https://kit.svelte.dev"

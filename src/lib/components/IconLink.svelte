@@ -28,5 +28,5 @@
 			<path fill-rule="evenodd" d={icons.get(icon)} clip-rule="evenodd" />
 		</svg>
 	</a>
-	<figcaption class="text-lg font-sm">{caption}</figcaption>
+	<figcaption class="font-sm text-lg">{caption}</figcaption>
 </figure>

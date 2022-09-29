@@ -6,7 +6,7 @@
 <Project>
 	<svelte:fragment slot="description">
 		<h2 class="text-2xl">Sveltedoku</h2>
-		<p class="p-4 text-lg text-left">
+		<p class="p-4 text-left text-lg">
 			Sudoku game made using <a
 				class="text-aurora-400"
 				href="https://kit.svelte.dev"

@@ -10,7 +10,7 @@
 
 <Card>
 	<div class="flex flex-col gap-2">
-		<h1 class="text-6xl m-0 font-bold">Hello, I'm Grant!</h1>
+		<h1 class="m-0 text-6xl font-bold">Hello, I'm Grant!</h1>
 		<P>
 			I like Sudoku puzzles and learning new things. I'm a web developer currently working in the
 			healthcare industry.

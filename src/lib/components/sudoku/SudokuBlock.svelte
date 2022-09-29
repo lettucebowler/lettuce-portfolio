@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class="grid-cols-3 grid-rows-3 bg-polar-300 grid gap-[1px]"
+	class="grid grid-cols-3 grid-rows-3 gap-[1px] bg-polar-300"
 	class:gap-[3px]={!!board}
 	class:aspect-square={!!board}
 >

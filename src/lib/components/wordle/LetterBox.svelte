@@ -4,7 +4,7 @@
 </script>
 
 <div
-	class="aspect-square justify-center text-center grid place-items-center text-2xl font-bold rounded-lg"
+	class="grid aspect-square place-items-center justify-center rounded-lg text-center text-2xl font-bold"
 	class:bg-polar-400={status === 'incorrect'}
 	class:bg-aurora-300={status === 'contains'}
 	class:bg-aurora-400={status === 'correct'}

@@ -7,7 +7,7 @@
 	);
 </script>
 
-<div class="rounded-lg w-full overflow-hidden">
+<div class="w-full overflow-hidden rounded-lg">
 	<SudokuBlock board>
 		{#each chunks as chunk}
 			<SudokuBlock>

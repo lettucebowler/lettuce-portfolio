@@ -6,7 +6,7 @@
 </script>
 
 <div
-	class="grid place-items-center text-polar-100 select-none font-medium"
+	class="grid select-none place-items-center font-medium text-polar-100"
 	class:text-transparent={number === '0'}
 	class:bg-aurora-300={selected}
 	class:bg-snow-100={!selected && !peerCell && !peerDigit}
