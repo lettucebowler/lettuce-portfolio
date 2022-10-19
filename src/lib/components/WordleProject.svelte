@@ -14,16 +14,21 @@
 			Wordle clone made using <a
 				class="text-aurora-400"
 				href="https://kit.svelte.dev"
-				target="_blank">svelte-kit</a
+				target="_blank"
+				rel="noopener noreferrer">svelte-kit</a
 			>. My job blocked the real wordle and I wanted to keep playing and sharing scores with my
 			coworkers so I made my own.
-			<a class="text-aurora-400" href="https://word.lettucebowler.net" target="_blank"
-				>Playable here</a
+			<a
+				class="text-aurora-400"
+				href="https://word.lettucebowler.net"
+				target="_blank"
+				rel="noopener noreferrer">Playable here</a
 			>. Code available on
 			<a
 				class="text-aurora-400"
 				href="https://github.com/lettucebowler/lettuce-wordle"
-				target="_blank">Github</a
+				target="_blank"
+				rel="noopener noreferrer">Github</a
 			>.
 		</p>
 	</svelte:fragment>

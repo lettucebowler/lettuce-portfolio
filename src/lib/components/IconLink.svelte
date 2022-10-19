@@ -17,7 +17,12 @@
 </script>
 
 <figure class="flex flex-col justify-end">
-	<a {href} title={caption} target="_blank" class="block hover:brightness-90"
+	<a
+		{href}
+		title={caption}
+		target="_blank"
+		rel="noopener noreferrer"
+		class="block hover:brightness-90"
 		><svg
 			xmlns="http://www.w3.org/2000/svg"
 			viewBox="0 0 20 20"
